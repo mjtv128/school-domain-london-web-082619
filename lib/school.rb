@@ -2,7 +2,7 @@
 class School 
   def initialize(school)
     @school = school 
-    school = School.new("Bayside High School")
+    @rooster = {}
   end
 
 
