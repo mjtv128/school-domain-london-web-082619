@@ -2,7 +2,7 @@
 class School 
   def initialize(school)
     @school = school 
-    @rooster = {}
+    @roster = {}
   end
 
 
