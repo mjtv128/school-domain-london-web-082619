@@ -14,7 +14,7 @@ def add_student(student_name, grade)
   @grade = grade 
   if @roster.empty?
     @roster[grade] = []
-  end 
+  else
   @roster[grade] << student_name
 end 
 
