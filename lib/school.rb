@@ -24,7 +24,9 @@ end
 
 def sort 
   @roster.each{|grade, student|
-  
+  @roster[grade] = student] 
+  }
+end 
 
 
 
