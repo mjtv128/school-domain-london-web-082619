@@ -23,7 +23,7 @@ end
 
 def sort 
   @roster.each{|grade, student|
-  student.sort!
+  @roster[grade] = student.sort
   }
 end 
 
